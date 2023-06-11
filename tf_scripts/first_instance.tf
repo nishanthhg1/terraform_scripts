@@ -10,5 +10,6 @@ resource "aws_instance" "intro" {
   vpc_security_group_ids = ["sg-0c64a2400436ce6b9"]
   tags = {
     Name = "dev-instance"
+    Project = "dev-pro"
   }
 }
